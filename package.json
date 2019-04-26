@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/vitorgiovane/rocketseat-bootcamp-environment-and-concepts",
   "author": "Vitor Giovane <vitorgpalves@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
