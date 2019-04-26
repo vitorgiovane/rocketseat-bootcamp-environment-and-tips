@@ -5,7 +5,13 @@
   "repository": "https://github.com/vitorgiovane/rocketseat-bootcamp-environment-and-concepts",
   "author": "Vitor Giovane <vitorgpalves@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
