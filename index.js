@@ -7,7 +7,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('/name/:name', (req, res) => {
-  return res.send(`Welcome, ${req.params.name}!`)
+  return res.json({
+    message: `Welcome, ${req.params.name}!`
+  })
 })
 
 app.listen(3000)
