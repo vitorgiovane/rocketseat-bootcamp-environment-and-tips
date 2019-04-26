@@ -8,6 +8,8 @@ const logMiddleware = (req, res, next) => {
   URL: ${req.url}
   METHOD: ${req.method}
   `)
+
+  req.appName = 'GoNode'
   
   return next()
 }
@@ -15,12 +17,12 @@ const logMiddleware = (req, res, next) => {
 app.use(logMiddleware)
 
 app.get('/', (req, res) => {
-  return res.send(`Welcome, ${req.query.name}!`)
+  return res.send(`Welcome to ${req.appName}, ${req.query.name}!`)
 })
 
 app.get('/name/:name', (req, res) => {
   return res.json({
-    message: `Welcome, ${req.params.name}!`
+    message: `Welcome to ${req.appName}, ${req.params.name}!`
   })
 })
 
