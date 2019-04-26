@@ -1,0 +1,8 @@
+{
+  "name": "rocketseat-bootcamp-environment-and-concepts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vitorgiovane/rocketseat-bootcamp-environment-and-concepts",
+  "author": "Vitor Giovane <vitorgpalves@gmail.com>",
+  "license": "MIT"
+}
