@@ -11,8 +11,12 @@ nunjucks.configure('views', {
 
 app.set('view engine', 'njk')
 
+const users = ['Vitor Giovane', 'Diego Fernandes', 'Filipe Deschamps']
+
 app.get('/', (req, res) => {
-  return res.render('list', { name: "Vitor" })
+  return res.render('list', { users })
+})
+
 })
 
 app.listen(3000)
