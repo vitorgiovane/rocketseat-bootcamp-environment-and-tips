@@ -1,2 +1,2 @@
-# rocketseat-bootcamp-environment-and-concepts
-Rocketseat Bootcamp - Module 1: Environment and concepts
+# rocketseat-bootcamp-environment-and-tips
+Rocketseat Bootcamp - Module 1: Environment and tips
